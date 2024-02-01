@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+     <div class="sun-container">
+        <h1 class="title">Sunrise and Sunset</h1>
+        <div class="info-container">
+            <label class="label" for="location-input">Enter Location</label>
+            <input class="input" type="text" id="location-input" placeholder="New York, US">
+            <div class="button-container">
+                <button class="sunrise" onclick="getSunriseInfo()">Get Sunrise Information</button>
+                <div id="sunriseInfo"></div>
+                <button class="sunset" onclick="getSunsetInfo()">Get Sunset Information</button>
+                <div id="sunsetInfo"></div>
+            </div>
+        </div>
+     </div>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
